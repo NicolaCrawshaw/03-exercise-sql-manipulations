@@ -1,0 +1,5 @@
+--
+-- Task:  There is a row in the reviews table that has an empty review.
+--        Use your SQL client to check which row it is, then write a SQL
+--        statement to update the review with a non-empty string.
+--

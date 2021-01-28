@@ -1,0 +1,7 @@
+--
+-- Task:  Insert the follow data into the reviews table:
+--          movie_id: 25
+--          review: 'Thou shall count to 3'
+--          stars: 3.5
+--          reviewer_name: 'Eric Idle'
+--
