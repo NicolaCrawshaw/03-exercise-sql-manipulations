@@ -20,3 +20,13 @@
 --        Make sure all the columns that are boolean data type also assign a
 --        default value of false. 
 --
+CREATE TABLE tv_shows (
+    id SERIAL,
+    title TEXT UNIQUE NOT NULL,
+    age INT,
+    on_netflix BOOLEAN DEFAULT FALSE,
+    on_hulu BOOLEAN DEFAULT FALSE,
+    on_prime_video BOOLEAN DEFAULT FALSE,
+    on_disney_plus BOOLEAN DEFAULT FALSE,
+    genres TEXT
+);
